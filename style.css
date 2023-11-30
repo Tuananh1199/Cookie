@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  background: #e3d0b6;
+}
+
+#cookie-policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 567px;
+  height: 600px;
+  background: #f3efe6;
+  border-radius: 12px;
+  transform: scale(.8);
+}
+
+#cookie-wrapper {
+  height: 240px;
+  width: 240px;
+  margin: 30px 0;
+  position: relative;
+  left: -40px;
+}
+
+h1 {
+  color: #6c3a1f;
+  text-align: center;
+  font-size: 10 36px;
+  margin: 0;
+}
+
+p {
+  color: #a28561;
+  font-size: 14px;
+  margin-top: 0;
+  padding: 0 60px;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background: #dd794a;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 9px;
+  border: none;
+  width: 72%;
+  padding: 12px 0;
+  transition: 150ms ease-out;
+  pointer-events: none;
+}
+
+button:hover {
+  background: #d66029;
+}
+
+a {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #a28561;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+a:hover {
+  color: #846b4d;
+}
+
+span {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  top: -18px;
+  left: 3px;
+  color: #a28561;
+}
+
+#heart-no,
+#thought-heart-yes,
+#mouth,
+#face-no,
+#thought-1,
+#thought-2,
+#thought-heart-na,
+#q-mark,
+#eyes,
+#leg-l,
+#leg-r {
+  opacity: 0;
+}
+
+@font-face src: url(https://assets.codepen.io/4291733/SemplicitaPro-Medium.woff2){
+font-family: SemplicitaPro;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+  background: #efefef;
+}
+
+#app .Synth {
+  width: 320px;
+}
+
+#app .Synth .preset,
+#app .Synth .key {
+  cursor: pointer;
+}
+
+#app .Synth .st0 {
+  fill: #dd794aba;
+  stroke: #e45b1c80;
+  stroke-miterlimit: 10;
+}
+
+#app .Synth .st1 {
+  fill: #892276;
+}
+
+#app .Synth .st2 {
+  fill: #d66029ad;
+}
+
+#app .Synth .st3 {
+  fill: white;
+  stroke: #f79365;
+  stroke-miterlimit: 10;
+}
+
+#app .Synth .st4 {
+  fill: #ffe1f7;
+}
+
+#app .Synth .st5 {
+  fill: #dd794a;
+}
+
+#app .Synth .st6 {
+  fill: white;
+}
+
+#app .Synth .st7 {
+  fill: #dd794a5c;
+}
+
+#app .Synth .st8 {
+  fill: white;
+  stroke: #dd994a;
+  stroke-miterlimit: 10;
+}
+
+#app .Synth .st9 {
+  fill: #dd994a;
+  stroke: white;
+  stroke-miterlimit: 10;
+}
