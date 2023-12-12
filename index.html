@@ -123,5 +123,12 @@
     <source src="music.mp3" type="audio/mp3">
   </audio>
 </body>
-
+<script>
+ 
+  document.addEventListener('click', musicPlay);
+  function musicPlay() {
+    document.getElementById('player').play();
+    document.removeEventListener('click', musicPlay);
+  }
+</script>
 </html>
