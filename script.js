@@ -11,6 +11,8 @@ $(".container").on("mouseout", function () {
 
 var isChrome =
   /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+console.log(isChrome)
 if (!isChrome) {
   $("#iframeAudio").remove();
 } else {
